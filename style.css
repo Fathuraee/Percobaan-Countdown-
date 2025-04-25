@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background: linear-gradient(135deg, #0052D4, #4364F7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.countdown div {
+  font-size: 2em;
+}
+
+.countdown p {
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.info {
+  margin-top: 20px;
+  color: #ddd;
+}
